@@ -1,9 +1,9 @@
 # Bug-Bounty-History 2025
 
 # July
-1) Pmiz (Bugv) (3-4 weeks) 
-  A) Profile and Password Update Allowed Without Email Verification - `High`
-  - Result : Not Applicable (they already know)
+1) Pmiz (Bugv) (3-4 weeks)
+   A) Profile and Password Update Allowed Without Email Verification - `High`
+   - Result : Not Applicable (they already know)
     - Improper Access Control/Authorization
     - Summary : App allows user to update their profile details(passwd etc.) without taking the ownership of the email(with unverified email)
                 Because app was providing the auth token without verifying the email. 
@@ -15,7 +15,7 @@
     - Summary : Enables Brute Force To Bypass 2FA Email Verification due to nature of OTP, it contain only 6 digits which is valid till 24                     hour provide attacker so much time to exploit it
 
 
-# August
+# August  
 1) Vulnerability Disclosure (BugCrowd) (1-2 Weeks ~ 7 Days)
    A) Partial Subdomain Takeover via Unclaimed Mailgun Domain - `Medium`
     - Result : Pending
@@ -29,7 +29,7 @@
     - Ref - https://hackerone.com/reports/17514
 
 
-2) Individual Bug-Bounty Program (droooo) (Internet) (3 Week-Ongoing)
+3) Individual Bug-Bounty Program (droooo) (Internet) (3 Week-Ongoing)
    A) OTP Verification Bypass in Email or Phone Update allows setting unverified email or number for OTP Delivery. - `Medium`
     - Result : Pending
     - Improper Authentication/Business Logic Flaw
