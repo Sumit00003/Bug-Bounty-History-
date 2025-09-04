@@ -30,7 +30,7 @@
 
 
 
-2) Individual Bug-Bounty Program (droooo) (Internet) (3 Week-Ongoing)  
+2) Individual Bug-Bounty Program (droooo) (Internet) (3th Week)  
    A) OTP Verification Bypass in Email or Phone Update allows setting unverified email or number for OTP Delivery. - `Medium`
     - Result : Pending - Not Responding
     - Improper Authentication/Business Logic Flaw
